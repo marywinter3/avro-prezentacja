@@ -5,6 +5,7 @@ Specyfikacja: https://avro.apache.org/docs/1.11.1/specification/
 ## Zawartosc
 
 | Plik | Co pokazuje |
+|---|---|
 | `schemas/user_v1.avsc` | schemat danych (record, union z null) |
 | `schemas/user_v2.avsc` | nowa wersja schematu z polem `country` |
 | `schemas/hello.avpr` | protokol RPC w JSON |
