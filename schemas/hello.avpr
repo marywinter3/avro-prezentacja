@@ -1,0 +1,15 @@
+{
+  "namespace": "pl.przyklad",
+  "protocol": "HelloWorld",
+  "doc": "Przykladowy protokol RPC.",
+  "types": [
+    {"name": "Greeting", "type": "record",
+     "fields": [{"name": "message", "type": "string"}]}
+  ],
+  "messages": {
+    "hello": {
+      "request": [{"name": "greeting", "type": "Greeting"}],
+      "response": "Greeting"
+    }
+  }
+}

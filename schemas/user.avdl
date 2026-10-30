@@ -1,0 +1,8 @@
+@namespace("pl.przyklad")
+protocol UserProtocol {
+  record User {
+    string name;
+    int age;
+    union { null, string } email = null;
+  }
+}
